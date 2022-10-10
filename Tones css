@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     margin:0px;
+    overflow-x :hidden; 
   }
   
   .panel {
@@ -223,28 +224,56 @@ body {
     width: 5em;
     height: 5em;
     position: relative;
-    left: -10em;
+    top: 10em;
+    left: 14em;
+    
   }
   #ad{
     width: 5em;
     height: 5em;
     position: relative;
-    left: -10em;
+    top:3.1em;
+    left: 28em;
   }
   #quality{
     position: relative;
-    left: -10em;
+    left: 69.3em;
+    top: -7.9em;
   }
   .down1{
     position: relative;
-    left: -10em;
+    left: 4.6em;
+    top: 4.1em;
+    font-size: xx-large;
+    font-family: Playfair Display;
   }
   .ad{
     position: relative;
-    left: -10em;
-  }
-  .quality{
-    position: relative;
-    left: -10em;
+    left: 7.5em;
+    top: 4.1em;
+    font-size: xx-large;
+    font-family: Playfair Display;
   }
   
+  .quality{
+    position: relative;
+    left: 26.5em;
+    top: -3.8em;
+    font-size: xx-large;
+    font-family: Playfair Display;
+  }
+  
+  .why{
+    width:100%;
+    height: 600px;
+  }
+     
+  .whyp{
+    position: relative;
+    top: 1.5em;
+    text-align: center;
+    font-family:Ubuntu;
+    font-size: 2.5em;
+  }
+
+   
