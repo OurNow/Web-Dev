@@ -1,10 +1,11 @@
 body {
-    background-color: #60a9ff;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
+    margin:0px;
   }
   
   .panel {
@@ -103,27 +104,40 @@ body {
   }
   .top{
     width: 100%;
-    height:15%;
+    height: 75px;
     background-color: black;
     color: white;
+    margin:0;
+    /*position: sticky;
+    top: 0px;
+    opacity: 1;*/
+  
   }
   .tones{
     font-size: x-large;
     font-weight: bold;
-    margin: auto 12.5%;
-
-
+    position: relative;
+    left: 190px;
+    top: 5px;
+    font-family: Helvetica, sans-serif;
+    
   }
   .down{
     font-size: large;
-    font-weight: bold;
+    font-weight: 600;
     margin:auto 60%;
+    position: relative;
+    left: 215px;
     
   }
   .sign{
     font-size: large;
-    font-weight: bold;
+    font-weight: 600;
     margin: auto -70%;
+    position: relative;
+    left: 210px;
+    padding-right: 0.5em;
+    border-right: 1px solid white;
   }
   
   .a{
@@ -142,3 +156,95 @@ body {
   .b:hover{
     color: #60a9ff;
   }
+  .premium{
+    width:100%;
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1665047918080-8ae013c05561?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  .needs{
+    margin: auto 12.5%;
+    padding: auto;
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 2.5em;
+    position: relative;
+    top: 3.5em;
+    left: 0.2em;
+
+   
+  }
+  .explain{
+    color: white;
+    font-family: Inter;
+    font-size: 1.5em;
+    position: relative;
+    top: 150px;
+    left: 200px;
+  }
+  .tc{
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 200px;
+  }
+  .begin{
+    position: relative;
+    top: 170px;
+    left: 200px;
+    background-color: #fefae0;
+    border-radius: 2em;
+    padding: 15px 20px;
+    width: 150px;
+  }
+  .lets{
+    text-decoration: none;
+    color: black;
+  }
+  .lets:hover{
+    color:#457b9d;
+  }
+  .begin:active{
+    background-color: #a2d2ff;
+  }
+  /* main class why
+  whyupgrade is whyp
+  img id is down
+  span class is down1
+  img id is ad
+  span class is ad
+  img id is quality
+  span class is quality*/
+  #down{
+    width: 5em;
+    height: 5em;
+    position: relative;
+    left: -10em;
+  }
+  #ad{
+    width: 5em;
+    height: 5em;
+    position: relative;
+    left: -10em;
+  }
+  #quality{
+    position: relative;
+    left: -10em;
+  }
+  .down1{
+    position: relative;
+    left: -10em;
+  }
+  .ad{
+    position: relative;
+    left: -10em;
+  }
+  .quality{
+    position: relative;
+    left: -10em;
+  }
+  
