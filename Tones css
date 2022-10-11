@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: white;
     display: flex;
@@ -5,11 +9,11 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-    margin:0px;
-    overflow-x :hidden; 
-  }
-  
-  .panel {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.panel {
     background-color: black;
     border-radius: 10px;
     padding: 15px 25px;
@@ -19,52 +23,54 @@ body {
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
-  }
-  
-  .pricing-plan {
+
+}
+
+.pricing-plan {
     border-bottom: 1px solid #e1f1ff;
-  }
-  .pricing-plan:last-child {
+}
+
+.pricing-plan:last-child {
     border-bottom: none;
-  }
-  
-  .pricing-img {
+}
+
+.pricing-img {
     margin-bottom: 25px;
     max-width: 100%;
-  }
-  
-  .pricing-header {
+}
+
+.pricing-header {
     color: #888;
     font-weight: 600;
     letter-spacing: 1px;
-  }
-  
-  .pricing-features {
+}
+
+.pricing-features {
     margin: 50px 0 25px;
     color: #c9ada7;
-  }
-  
-  .pricing-features-item {
+}
+
+.pricing-features-item {
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 12px;
     line-height: 1.5;
     padding: 15px 0;
     border-top: 1px solid #e1f1ff;
-  }
-  
-  .pricing-features-item:last-child{
+}
+
+.pricing-features-item:last-child {
     border-bottom: 1px solid #e1f1ff;
-  }
-  
-  .pricing-price {
-    color: #c9ada7; 
+}
+
+.pricing-price {
+    color: #c9ada7;
     display: block;
     font-size: 32px;
     font-weight: 700;
-  }
-  
-  .pricing-button {
+}
+
+.pricing-button {
     border: 1px solid #c9ada7;
     border-radius: 10px;
     color: #c9ada7;
@@ -73,63 +79,73 @@ body {
     text-decoration: none;
     margin: 25px 0;
     transition: background-color 200ms ease-in-out;
-  }
-  
-  .pricing-button:hover, .pricing-button:focus {
+}
+
+.pricing-button:hover,
+.pricing-button:focus {
     background-color: #e1f1ff;
     color: #6c584c;
-  }
-  
-  .pricing-button.is-featured {
-    color: #c9ada7;;
-  }
-  
-  .pricing-button.is-featured:hover, .pricing-button.is-featured:focus{
+}
+
+.pricing-button.is-featured {
+    color: #c9ada7;
+    ;
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:focus {
     background-color: #e1f1ff;
     color: #6c584c;
-  }
-  
-  
-  @media (min-width: 900px){
+}
+
+
+@media (min-width: 900px) {
     .panel {
-      flex-direction: row;
+        flex-direction: row;
     }
+
     .pricing-plan {
-      border-bottom: none;
-      border-right: 1px solid #e1f1ff;
-      padding: 25px 50px;
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
     }
+
     .pricing-plan:last-child {
-      border-right: none;
+        border-right: none;
     }
-  }
-  .top{
+}
+
+.top {
     width: 100%;
     height: 75px;
     background-color: black;
     color: white;
-    margin:0;
-    
-  
-  }
-  .tones{
+    margin: 0;
+    /* position: sticky;
+    top: 0%; */
+
+}
+
+.tones {
     font-size: x-large;
     font-weight: bold;
     position: relative;
     left: 190px;
     top: 5px;
     font-family: Helvetica, sans-serif;
-    
-  }
-  .down{
+
+}
+
+.down {
     font-size: large;
     font-weight: 600;
-    margin:auto 60%;
+    margin: auto 60%;
     position: relative;
-    left: 215px;
-    
-  }
-  .sign{
+    left: 12.9em;
+
+}
+
+.sign {
     font-size: large;
     font-weight: 600;
     margin: auto -70%;
@@ -137,34 +153,37 @@ body {
     left: 210px;
     padding-right: 0.5em;
     border-right: 1px solid white;
-  }
-  
-  .a{
+}
+
+.a {
     color: white;
     text-decoration: none;
-  }
-  .b{
+}
+
+.b {
     color: white;
     text-decoration: none;
-  }
-  
-  .a:hover{
+}
+
+.a:hover {
     color: #60a9ff;
-  }
-  
-  .b:hover{
+}
+
+.b:hover {
     color: #60a9ff;
-  }
-  .premium{
-    width:100%;
+}
+
+.premium {
+    width: 100%;
     height: 500px;
     background-image: url(https://images.unsplash.com/photo-1665047918080-8ae013c05561?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    
-  }
-  .needs{
+
+}
+
+.needs {
     margin: auto 12.5%;
     padding: auto;
     color: white;
@@ -175,23 +194,26 @@ body {
     top: 3.5em;
     left: 0.2em;
 
-   
-  }
-  .explain{
+
+}
+
+.explain {
     color: white;
     font-family: Inter;
     font-size: 1.5em;
     position: relative;
     top: 150px;
     left: 200px;
-  }
-  .tc{
+}
+
+.tc {
     color: white;
     position: relative;
     top: 200px;
     left: 200px;
-  }
-  .begin{
+}
+
+.begin {
     position: relative;
     top: 170px;
     left: 200px;
@@ -199,79 +221,84 @@ body {
     border-radius: 2em;
     padding: 15px 20px;
     width: 150px;
-  }
-  .lets{
+}
+
+.lets {
     text-decoration: none;
     color: black;
-  }
-  .lets:hover{
-    color:#457b9d;
-  }
-  .begin:active{
+}
+
+.lets:hover {
+    color: #457b9d;
+}
+
+.begin:active {
     background-color: #a2d2ff;
-  }
-  
-  #down{
+}
+
+#down {
     width: 5em;
     height: 5em;
     position: relative;
     top: 10em;
     left: 14em;
-    
-  }
-  #ad{
+
+}
+
+#ad {
     width: 5em;
     height: 5em;
     position: relative;
-    top:3.1em;
-    left: 28em;
-  }
-  #quality{
+    top: 3.1em;
+    left: 24em;
+}
+
+#quality {
     position: relative;
-    left: 69.3em;
+    left: 63.3em;
     top: -7.9em;
-  }
-  .down1{
+}
+
+.down1 {
     position: relative;
     left: 4.6em;
     top: 4.1em;
     font-size: xx-large;
     font-family: Playfair Display;
-  }
-  .ad{
+}
+
+.ad {
     position: relative;
-    left: 7.5em;
+    left: 5.8em;
     top: 4.1em;
     font-size: xx-large;
     font-family: Playfair Display;
-  }
-  
-  .quality{
+}
+
+.quality {
     position: relative;
-    left: 26.5em;
+    left: 23.5em;
     top: -3.8em;
     font-size: xx-large;
     font-family: Playfair Display;
-  }
-  
-  .why{
-    width:100%;
+}
+
+.why {
+    width: 100%;
     height: 600px;
-  }
-     
-  .whyp{
+}
+
+.whyp {
     position: relative;
     top: 1.5em;
     text-align: center;
-    font-family:Ubuntu;
+    font-family: Ubuntu;
     font-size: 2.5em;
-  }
-/* .design{
-  width: 100%;
-  height: 510px;
-  background-color: blue;
-  /* display: flex;
-  align-content: center;
-  flex-direction: row; 
-  #016ff9*/
- 
+}
+
+/* .move {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+} */
