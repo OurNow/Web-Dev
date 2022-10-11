@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="aboutme-style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+
+            ABOUT ME
+
+        </h1>
+    </header>
+    <hr>
+    <ul>
+        <li><strong><span class="name">Name</span></strong>:<span class="arnav"> Arnav Rai</span></li> <br>
+        <li><strong><span class="name"> E-mail address</span></strong>: <span class="arnav"><a
+                    href="mailto:arnavrai03@gmail.com">arnavrai03@gmail.com</a></span></li>
+        <br>
+        <li><strong><span class="name"> Major</span></strong>: <span class="arnav">B.E. CSE </span></li> <br>
+
+        <article>
+            <p>
+            <h3 class="learn">
+                What I learnt from this course:
+            </h3><br>By taking the course, namely "Web Application Development" , I hope to improve my skills in front
+            end web development by developing websites and applications using HTML5 , CSS and JavaScript . Over the
+            course of these 2 weeks I hope to become proficient in web development skills . I hope that this helps me
+            avail internships in good companies and possibly job offers as well.</p>
+        </article>
+        <br>
+        <li> <strong><span class="name">A picture of myself:</span></strong> <br>
+            <marquee><img src="C:\Users\Admin\Desktop\download.jpg" width="90" height="120" alt="Arnav Rai"></marquee>
+            <br>
+
+            <nav>
+                <mark>
+        <li><strong><span class="name">Future assignments:</span></strong> </li> </mark> <br>
+        <p> <a href="https://www.w3schools.com/">Assignment 2</a> <br>
+            <a href="https://www.geeksforgeeks.org/">Assignment 3</a><br>
+            <a href="https://www.udemy.com/">Assignment 4</a><br>
+
+        </p>
+        </nav><br>
+    </ul>
+    <hr>
+    <fieldset>
+        <legend>Links</legend>
+        <footer><a href="file:///C:/Users/Admin/Desktop/interests.html">My Interests</a><br>
+            <a href="file:///C:/Users/Admin/Desktop/books.html">My Books</a><br>
+            <a href="file:///C:/Users/Admin/Desktop/sform.html">Student Form</a><br>
+            <a href="file:///C:/Users/Admin/Desktop/rform.html">Registration Form</a><br>
+            <a href="file:///C:/Users/Admin/Desktop/lform.html">Feedback Form</a><br>
+    </fieldset>
+    </footer>
+
+</body>
+
+</html>
