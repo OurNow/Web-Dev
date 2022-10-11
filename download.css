@@ -1,0 +1,137 @@
+.top {
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+    margin: 0;
+    position: relative;
+    top: -7em;
+    /* position: sticky;
+    top: 0em;
+    left: 0em; 
+    z-index: 1; */
+    /* margin-top: 0em; */
+  
+  }
+  
+  .tones {
+    font-size: x-large;
+    font-weight: bold;
+    position: relative;
+    left: 190px;
+    top: 5px;
+    font-family: Helvetica, sans-serif;
+    
+  }
+  
+  .down {
+    font-size: large;
+    font-weight: 600;
+    margin: auto 60%;
+    position: relative;
+    left: 12.9em;
+  
+  }
+  
+  .sign {
+    font-size: large;
+    font-weight: 600;
+    margin: auto -70%;
+    position: relative;
+    left: 210px;
+    padding-right: 0.5em;
+    border-right: 1px solid white;
+  }
+  body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0px;
+    overflow-x: hidden;
+  } 
+  .a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .b {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .a:hover {
+    color: #60a9ff;
+  }
+  
+  .b:hover {
+    color: #60a9ff;
+  }
+  
+  .premium {
+    width: 100%;
+    height: 500px;
+    /* background-image: url(https://images.unsplash.com/photo-1665047918080-8ae013c05561?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #14213d;
+    position: relative;
+    top: -7em;
+  
+  }
+  .needs {
+    margin: auto 12.5%;
+    padding: auto;
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 2.5em;
+    position: relative;
+    top: 3.5em;
+    text-align: center;
+  
+  
+  }
+  
+  
+  
+  
+  .tc {
+    color: white;
+    position: relative;
+    top: 200px;
+    text-align: center;
+  }
+  
+  .begin {
+    position: relative;
+    top: 170px;
+    left: 52em;
+    background-color: #fefae0;
+    border-radius: 2em;
+    padding: 15px 20px;
+    width: 150px;
+  }
+  
+  .lets {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .lets:hover {
+    color: #457b9d;
+  }
+  
+  .begin:active {
+    background-color: #a2d2ff;
+  }
+  html {
+     overflow-x: hidden; 
+  }
+  .begin:hover{
+    background-color: black;
+    color: #fefae0;
+  }
