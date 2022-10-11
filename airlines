@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="airplane.css">
+    <title>Rai Airlines</title>
+</head>
+
+<body>
+    <table width="100%" height="750px" border="1">
+
+        <tr class="test">
+            <th colspan="3" height="25%"><span class="title">Rai airlines</span><img height="120" width="120"
+                    class="move"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2dsq-UWEAufCv2KzQ4B16Aqr60DorzKWOA&usqp=CAU"
+                    alt="logo"><br><br><br><span class="stand">We stand by the
+                    customer. &#9992;</span></th>
+        </tr>
+
+        <tbody>
+
+            <tr>
+                <td rowspan="2" width="25%"><span class="fl">Flights that are delayed:</span><br><span class="blr">
+                        <marquee direction="right">BLR-CHE FL1423</marquee>
+                    </span><br><span class="blr">
+                        <marquee direction="right">BLR-IXE FL1842</marquee>
+                    </span><br><span class="blr">
+                        <marquee direction="right">BLR-QAT FL1000</marquee>
+                    </span></td>
+                <td colspan="2" height="20%"><span class="ad">Advertisement:<br><br><br>
+                        <marquee direction="right"><img class="img1"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeNTdIxQE1y_tg4gJvVMJjE6cXYh_JJFTvSQ&usqp=CAU"><img
+                                class="img2"
+                                src="data:image/jpeg;base64,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">
+                            <img class="img3"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM4omeijQGvk-hZb4tAen2hkEecAD-f-cXWQ&usqp=CAU">
+                        </marquee>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>History:</h1><br>The airline was founded by Mr. Rai as Rai Flights in 1992; Rai himself flew its
+                    first single-engine
+                    de Havilland Puss Moth, carrying air mail from Bangalore's M.G Road Aerodrome to Bombay's Juhu
+                    aerodrome and later continuing to Madras (currently Chennai). After 1996, it became a public limited
+                    company and was renamed as Rai Airlines. On 21 February 1994, it took delivery of its first Boeing
+                    707 named Gauri Shankar and became the first Asian airline to induct a jet aircraft in its
+                    fleet.<br>
+                    <h1>Achievements:</h1><br><span class="ach">It is the largest airline in India by market
+                        share.</span><br><span class="ach">It operates over 300 flights to almost 40 destinations
+                        in India and around the world. </span><br><span class="ach">It is the first airline in India to
+                        offer a value-based frequent-flyer program, where loyalty points are based on the fares spent
+                        instead of miles traveled.</span>
+                </td>
+                <td width="15%">Links to book tickets:<br><span class="link"><a class="site"
+                            href="https://www.makemytrip.com/">Make
+                            my trip.</a></span><br><span class="link"><a class="site" href="https://www.goibibo.com/">Go
+                            ibibo</a></span></td>
+            </tr>
+            <tr>
+                <td colspan="3">&#169;Rights reserved</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
