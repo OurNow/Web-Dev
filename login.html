@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="top">
+        <span class="tones"><i class="fa-brands fa-itunes-note"></i> Tones&trade;</span> <span
+            class="down"></span><br><br><br><br>
+    </div>
+    <h1 class="welcome">Welcome back! Log in to continue listening.</h1>
+    <form action="https://www.facebook.com/login.php?">
+        <button class="fb" name="skip_api_login"><span id="fb"><i class="fa-brands fa-facebook"></i> Log in through
+                Facebook</span></button>
+
+    </form><br>
+    <form action="https://accounts.google.com/AddSession/identifier?">
+        <button class="goog" name="service=accountsettings&continue"><span id="goog"><i class="fa-brands fa-google"></i>
+                Log in through Google</span></button>
+
+    </form>
+    <h2><span>OR</span></h2>
+    <span class="email">Log in with your email address</span>
+    <form action="">
+        <label for="email"><span class="common">Enter email or username.</span></label><br><br>
+        <input type="email" id="email" name="email" placeholder="Enter email or username" required class="long"><br><br>
+        <label for="password"><span class="common">Enter password</span></label><br><br>
+        <input type="password" id="password" name="password" placeholder="Enter password" required class="long"><br><br>
+        <span id="forgot"><a href="">Forgot password?</a></span>
+        <input type="checkbox" id="remember" name="remember" checked value="remember" class="long">
+        <label for="remember"><span class="remember">Remember me</span></label><br><br>
+
+    </form>
+    <form>
+        <button class="onclick" onclick="alert('Logged in successfully!')">LOG IN</button>
+    </form>
+    <hr>
+
+    <h2 class="have"><span id="have">Haven't created an account yet?</span></h2>
+    <form>
+        <button class="signup"><a id="signup"
+                href="file:///C:/Users/Aishwarya%20G/Python%20Programming/vscp/HTML.html/signup.html?">Sign up
+            </a></button>
+    </form>
