@@ -5,44 +5,45 @@
     color: white;
     margin: 0;
     position: relative;
-    top: -7em;
+    top: -1.5em;
     /* position: sticky;
     top: 0em;
     left: 0em; 
     z-index: 1; */
     /* margin-top: 0em; */
-  
-  }
-  
-  .tones {
+
+}
+
+.tones {
     font-size: x-large;
     font-weight: bold;
     position: relative;
     left: 190px;
     top: 5px;
     font-family: Helvetica, sans-serif;
-    
-  }
-  
-  .down {
+
+}
+
+.down {
     font-size: large;
     font-weight: 600;
     margin: auto 60%;
     position: relative;
     left: 12.9em;
-  
-  }
-  
-  .sign {
+
+}
+
+.sign {
     font-size: large;
     font-weight: 600;
-    margin: auto -70%;
+
     position: relative;
-    left: 210px;
+    left: 48.5em;
     padding-right: 0.5em;
     border-right: 1px solid white;
-  }
-  body {
+}
+
+body {
     background-color: white;
     display: flex;
     justify-content: center;
@@ -51,26 +52,37 @@
     flex-direction: column;
     margin: 0px;
     overflow-x: hidden;
-  } 
-  .a {
+}
+
+.a {
     color: white;
     text-decoration: none;
-  }
-  
-  .b {
+}
+
+.c {
     color: white;
     text-decoration: none;
-  }
-  
-  .a:hover {
+}
+
+.b {
+    color: white;
+    text-decoration: none;
+}
+
+.b:hover {
     color: #60a9ff;
-  }
-  
-  .b:hover {
+}
+
+.a:hover {
     color: #60a9ff;
-  }
-  
-  .premium {
+}
+
+.c:hover {
+    color: #60a9ff;
+}
+
+
+.premium {
     width: 100%;
     height: 500px;
     /* background-image: url(https://images.unsplash.com/photo-1665047918080-8ae013c05561?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
@@ -79,10 +91,11 @@
     background-repeat: no-repeat; */
     background-color: #14213d;
     position: relative;
-    top: -7em;
-  
-  }
-  .needs {
+    top: -1.5em;
+
+}
+
+.needs {
     margin: auto 12.5%;
     padding: auto;
     color: white;
@@ -92,46 +105,56 @@
     position: relative;
     top: 3.5em;
     text-align: center;
-  
-  
-  }
-  
-  
-  
-  
-  .tc {
+
+
+}
+
+
+
+
+.tc {
     color: white;
     position: relative;
     top: 200px;
     text-align: center;
-  }
-  
-  .begin {
+}
+
+.begin {
     position: relative;
     top: 170px;
-    left: 52em;
+    left: 45em;
     background-color: #fefae0;
     border-radius: 2em;
     padding: 15px 20px;
     width: 150px;
-  }
-  
-  .lets {
+}
+
+.lets {
     text-decoration: none;
     color: black;
-  }
-  
-  .lets:hover {
+}
+
+.lets:hover {
     color: #457b9d;
-  }
-  
-  .begin:active {
+}
+
+.begin:active {
     background-color: #a2d2ff;
-  }
-  html {
-     overflow-x: hidden; 
-  }
-  .begin:hover{
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.begin:hover {
     background-color: black;
     color: #fefae0;
-  }
+}
+
+.log {
+    font-size: large;
+    font-weight: 600;
+    position: relative;
+    left: 55.5em;
+
+}
