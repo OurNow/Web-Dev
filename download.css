@@ -24,6 +24,11 @@
 
 }
 
+#tones {
+    text-decoration: none;
+    color: white;
+}
+
 .down {
     font-size: large;
     font-weight: 600;
