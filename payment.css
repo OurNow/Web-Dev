@@ -3,11 +3,28 @@
     height: 75px;
     background-color: black;
     color: white;
-    position: sticky;
+    /* position: sticky;
     top: 0%;
     left: 0%;
-    z-index: 1;
+    z-index: 1; */
 
+}
+
+.goog:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: brightness(120%);
+    border: 3px solid black;
+    font-weight: 800;
+}
+
+
+.fb:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: brightness(120%);
+    border: 3px solid black;
+    font-weight: 800;
 }
 
 .tones {
@@ -18,6 +35,11 @@
     top: 0.8em;
     font-family: Helvetica, sans-serif;
 
+}
+
+#tones {
+    text-decoration: none;
+    color: white;
 }
 
 .benefits {
@@ -35,7 +57,17 @@ body {
     min-height: 100vh;
     flex-direction: column;
     margin: 0px;
+    padding: 0px;
     overflow-x: hidden;
+    width: 100%;
+}
+
+html {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
 }
 
 #fb {
@@ -147,6 +179,7 @@ h2 span {
     width: 150px;
     background-color: black;
     top: 20em;
+    left: -1em;
     font-size: large;
     font-family: Roboto;
     font-weight: bold;
