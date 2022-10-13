@@ -30,6 +30,8 @@ body {
     left: 26em;
     top: 0.3em;
     font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
 
 }
 
@@ -154,10 +156,15 @@ body {
 .head1 {
     position: relative;
     top: -11.5em;
-    
+
 }
 
 .ban {
     position: relative;
     top: -30em;
+}
+
+#tones {
+    text-decoration: none;
+    color: white;
 }
