@@ -20,6 +20,11 @@
 
 }
 
+#tones {
+    text-decoration: none;
+    color: white;
+}
+
 .benefits {
     position: relative;
     top: 3em;
@@ -147,6 +152,7 @@ h2 span {
     width: 150px;
     background-color: black;
     top: 20em;
+    left: -1em;
     font-size: large;
     font-family: Roboto;
     font-weight: bold;
