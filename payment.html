@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up</title>
+    <title>Payment - Tones&trade;</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -19,9 +19,30 @@
 </head>
 
 <body>
+    <script type="text/javascript">
+        function empty() {
+            var myTextField = document.getElementById('email');
+            if (myTextField.value == "")
+                alert("Please enter your email")
+            var myTextField1 = document.getElementById('password');
+            if (myTextField1.value == "")
+                alert("Please enter your password")
+            var myTextField2 = document.getElementById('username');
+            if (myTextField2.value == "")
+                alert("Please enter your username")
+        }
+        function notempty() {
+            var myTextField3 = document.getElementById('email');
+            var myTextField4 = document.getElementById('password');
+            var myTextField5 = document.getElementById('username');
+            if (myTextField3.value && myTextField4.value && myTextField5.value != "")
+                alert("Payment initialised!")
+        }
+    </script>
     <div class="top">
-        <span class="tones"><i class="fa-brands fa-itunes-note"></i> Tones&trade;</span> <span
-            class="down"></span><br><br><br><br>
+        <span class="tones"><i class="fa-brands fa-itunes-note"></i><a id="tones"
+                href="file:///C:/Users/Aishwarya%20G/Python%20Programming/vscp/HTML.html/tones.html">
+                Tones&trade;</a></span> <span class="down"></span><br><br><br><br>
     </div>
     <h1 class="benefits">Sign up to proceed to payment.</h1>
 
@@ -42,8 +63,8 @@
         <label for="email"><span class="common">What's your email?</span></label><br><br>
         <input type="email" id="email" name="email" placeholder="Enter email" required class="long"><br><br>
         <label for="password"><span class="common">Create a password</span></label><br><br>
-        <input type="password" id="password" name="password" placeholder="Create password" required
-            class="long"><br><br>
+        <input type="password" id="password" name="password" placeholder="Create password" required class="long"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br><br>
         <label for="username"><span class="common">Create a username</span></label><br><br>
         <input type="text" id="username" name="username" placeholder="Enter username" required class="long"><br><br>
         <span class="common">What's your gender?</span></label><br>
@@ -69,7 +90,7 @@
             Tones' Privacy Policy.</a></span>
     <form><br>
 
-        <button class="onclick" onclick="alert('Payment initialised!')">Proceed</button>
+        <input type="button" class="onclick" onclick="empty(); notempty();" value="PROCEED">
 
     </form>
 
