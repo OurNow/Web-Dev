@@ -20,6 +20,11 @@
 
 }
 
+#tones {
+    text-decoration: none;
+    color: white;
+}
+
 body {
     display: flex;
     /* justify-content: center; */
@@ -84,7 +89,7 @@ h2 span {
     width: 150px;
     background-color: black;
     top: 16em;
-    left: 0em;
+    left: -1em;
     font-size: large;
     font-family: Roboto;
     font-weight: bold;
@@ -103,8 +108,6 @@ h2 span {
     filter: brightness(120%);
     border: 3px solid black;
     font-weight: 800;
-    /* background-color: white;
-  color: crimson; */
 }
 
 
@@ -192,7 +195,7 @@ h2 span {
     width: 150px;
     background-color: black;
     top: 23em;
-    left: 0em;
+    left: -1em;
     font-size: large;
     font-family: Roboto;
     font-weight: bold;
