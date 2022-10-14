@@ -1,0 +1,35 @@
+.top {
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+
+}
+
+.tones {
+    font-size: x-large;
+    font-weight: bold;
+    position: relative;
+    left: 24.5em;
+    top: 1.0em;
+    font-family: Helvetica, sans-serif;
+
+}
+
+#tones {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    text-align: center;
+
+}
+
+body {
+    background-color: #c9ada7;
+}
