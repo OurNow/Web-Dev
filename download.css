@@ -5,7 +5,7 @@
     color: white;
     margin: 0;
     position: relative;
-    top: -1.5em;
+    top: -1em;
     /* position: sticky;
     top: 0em;
     left: 0em; 
@@ -19,7 +19,7 @@
     font-weight: bold;
     position: relative;
     left: 190px;
-    top: 5px;
+    top: 0.4em;
     font-family: Helvetica, sans-serif;
 
 }
@@ -46,10 +46,11 @@
     left: 48.5em;
     padding-right: 0.5em;
     border-right: 1px solid white;
+    top: 0.4em;
 }
 
 body {
-    background-color: white;
+    background-color: #9a8c98;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,9 +92,10 @@ body {
     width: 100%;
     height: 500px;
     /* background-image: url(https://images.unsplash.com/photo-1665047918080-8ae013c05561?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
-    background-position: top;
+    background-position: top;*/
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-image: url(https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-color: #14213d;
     position: relative;
     top: -1.5em;
@@ -103,7 +105,7 @@ body {
 .needs {
     margin: auto 12.5%;
     padding: auto;
-    color: white;
+    color: #14213d;
     font-family: Roboto;
     font-weight: 500;
     font-size: 2.5em;
@@ -118,7 +120,7 @@ body {
 
 
 .tc {
-    color: white;
+    color: #14213d;
     position: relative;
     top: 200px;
     text-align: center;
@@ -160,6 +162,129 @@ html {
     font-size: large;
     font-weight: 600;
     position: relative;
-    left: 55.5em;
+    left: 55.6em;
+    top: 0.4em;
 
+}
+
+#art {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 340px;
+    background-image: url(https://images.unsplash.com/photo-1594315817877-7451953e203d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTV8fHN0YXJyeSUyMHNreXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin-top: 5em;
+    position: relative;
+}
+
+.tonesf {
+    font-size: 2.3em;
+    font-weight: bold;
+
+    font-family: Helvetica, sans-serif;
+    color: #c9ada7;
+    position: absolute;
+    top: 1.5em;
+    left: 2.0em;
+
+
+}
+
+#tonesf {
+    color: #c9ada7;
+    text-decoration: none;
+}
+
+.foot1 {
+    color: #c9ada7;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    top: 6em;
+    left: 22em;
+    position: absolute;
+
+
+}
+
+.foot2 {
+    color: #c9ada7;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    top: 9em;
+    left: 22em;
+    position: absolute;
+
+}
+
+.foot3 {
+    color: #c9ada7;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    top: 12em;
+    left: 22em;
+    position: absolute;
+}
+
+.foot4 {
+    color: #c9ada7;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    top: 6em;
+    left: 36em;
+    position: absolute;
+}
+
+.foot5 {
+    color: #c9ada7;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    top: 9em;
+    left: 36em;
+    position: absolute;
+}
+
+.foot6 {
+    color: #c9ada7;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    top: 12em;
+    left: 36em;
+    position: absolute;
+}
+
+.icon1 {
+    color: #c9ada7;
+    font-size: 2.5em;
+    position: absolute;
+    top: 3.6em;
+    left: 25em;
+}
+
+.icon2 {
+    color: #c9ada7;
+    font-size: 2.5em;
+    position: absolute;
+    top: 3.6em;
+    left: 27em;
+}
+
+
+.icon3 {
+    color: #c9ada7;
+    font-size: 2.5em;
+    position: absolute;
+    top: 3.6em;
+    left: 29em;
 }
