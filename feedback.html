@@ -3,9 +3,18 @@
 
 <head>
     <title> Feedback- Tones&trade;</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet'
+    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet'
         type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <style>
         html,
@@ -47,6 +56,7 @@
             width: 100%;
             padding: 20px;
             background: #fff;
+
             box-shadow: 0 2px 5px #ccc;
         }
 
@@ -99,7 +109,7 @@
             text-align: center;
         }
 
-        button {
+        .onclick {
             width: 150px;
             padding: 10px;
             border: none;
@@ -142,8 +152,8 @@
             font-size: x-large;
             font-weight: bold;
             position: relative;
-            left: 26em;
-            top: 0.8em;
+            left: 24.5em;
+            top: 1.0em;
             font-family: Helvetica, sans-serif;
 
         }
@@ -152,17 +162,150 @@
             text-decoration: none;
             color: white;
         }
+
+        #art {
+            width: 100%;
+        }
+
+        footer {
+            width: 100%;
+            height: 340px;
+            background-image: url(https://images.unsplash.com/photo-1594315817877-7451953e203d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTV8fHN0YXJyeSUyMHNreXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: black;
+            margin-top: 5em;
+            position: relative;
+        }
+
+        .tonesf {
+            font-size: 2.3em;
+            font-weight: bold;
+
+            font-family: Helvetica, sans-serif;
+            color: #c9ada7;
+            position: absolute;
+            top: 1.5em;
+            left: 2.0em;
+
+
+        }
+
+        .foot1 {
+            color: #c9ada7;
+            text-decoration: none;
+            font-family: Ubuntu;
+            font-size: 1.1em;
+            top: 6em;
+            left: 22em;
+            position: absolute;
+
+
+        }
+
+        .foot2 {
+            color: #c9ada7;
+            text-decoration: none;
+            font-family: Ubuntu;
+            font-size: 1.1em;
+            top: 9em;
+            left: 22em;
+            position: absolute;
+
+        }
+
+        .foot3 {
+            color: #c9ada7;
+            text-decoration: none;
+            font-family: Ubuntu;
+            font-size: 1.1em;
+            top: 12em;
+            left: 22em;
+            position: absolute;
+        }
+
+        .foot4 {
+            color: #c9ada7;
+            text-decoration: none;
+            font-family: Ubuntu;
+            font-size: 1.1em;
+            top: 6em;
+            left: 36em;
+            position: absolute;
+        }
+
+        .foot5 {
+            color: #c9ada7;
+            text-decoration: none;
+            font-family: Ubuntu;
+            font-size: 1.1em;
+            top: 9em;
+            left: 36em;
+            position: absolute;
+        }
+
+        .foot6 {
+            color: #c9ada7;
+            text-decoration: none;
+            font-family: Ubuntu;
+            font-size: 1.1em;
+            top: 12em;
+            left: 36em;
+            position: absolute;
+        }
+
+        .icon1 {
+            color: #c9ada7;
+            font-size: 2.5em;
+            position: absolute;
+            top: 3.6em;
+            left: 25em;
+        }
+
+        .icon2 {
+            color: #c9ada7;
+            font-size: 2.5em;
+            position: absolute;
+            top: 3.6em;
+            left: 27em;
+        }
+
+
+        .icon3 {
+            color: #c9ada7;
+            font-size: 2.5em;
+            position: absolute;
+            top: 3.6em;
+            left: 29em;
+        }
     </style>
 </head>
 
 <body>
+    <script type="text/javascript">
+        function empty() {
+            var myTextField = document.getElementById('email');
+            if (myTextField.value == "")
+                alert("Please enter your email")
+
+
+        }
+        function notempty() {
+            var myTextField3 = document.getElementById('email');
+
+
+            if (myTextField3.value != "")
+                alert("Thank you for your feedback!")
+        }
+    </script>
     <div class="top">
         <span class="tones"><i class="fa-brands fa-itunes-note"></i><a id="tones"
                 href="file:///C:/Users/Aishwarya%20G/Python%20Programming/vscp/HTML.html/tones.html">
                 Tones&trade;</a></span> <span class="down"></span><br><br><br><br>
     </div>
     <div class="testbox">
-        <form action="/">
+        <form action="">
             <h1>Customer Feedback Form</h1>
             <p>Please take a few minutes to give us feedback about our service by filling in this short Customer
                 Feedback Form. We are conducting this research in order to measure your level of satisfaction with the
@@ -231,12 +374,33 @@
             <textarea rows="5"></textarea>
             <h4>Email</h4>
             <small>Only if you want to hear more from us.</small>
-            <input class="email" type="text" name="name" />
+            <input class="email" type="text" name="name" id="email" />
             <div class="btn-block">
-                <button type="submit" href="/">Send Feedback</button>
+                <!-- <button type="submit">Send Feedback</button> -->
+                <input type="button" class="onclick" onclick="empty(); notempty();" value="Send Feedback">
             </div>
         </form>
     </div>
+    <footer>
+        <span class="tonesf"><i class="fa-brands fa-itunes-note"></i><a style="color:#c9ada7; text-decoration: none;"
+                href="file:///C:/Users/Aishwarya%20G/Python%20Programming/vscp/HTML.html/tones.html">Tones&trade;</a>
+        </span>
+
+        <a class="foot1" href="#art">About Tones</a>
+        <a class="foot2" href="file:///C:/Users/Aishwarya%20G/Python%20Programming/vscp/HTML.html/contact.html">Contact
+            Us</a>
+        <a class="foot3"
+            href="file:///C:/Users/Aishwarya%20G/Python%20Programming/vscp/HTML.html/feedback.html">Feedback</a>
+        <a class="foot4"
+            href="file:///C:/Users/Aishwarya%20G/Python%20Programming/vscp/HTML.html/support.html">Support</a>
+        <a class="foot5" href="file:///C:/Users/Aishwarya%20G/Python%20Programming/vscp/HTML.html/terms.html">Terms and
+            Conditions</a>
+        <a class="foot6" href="file:///C:/Users/Aishwarya%20G/Python%20Programming/vscp/HTML.html/privacy.html">Privacy
+            Policy</a>
+        <a class="icon1" href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+        <a class="icon2" href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+        <a class="icon3" href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook-f"></i></a>
+    </footer>
 </body>
 
 </html>
