@@ -15,8 +15,8 @@
     font-size: x-large;
     font-weight: bold;
     position: relative;
-    left: 26em;
-    top: 0.8em;
+    left: 24.5em;
+    top: 1.0em;
     font-family: Helvetica, sans-serif;
 
 }
@@ -34,7 +34,8 @@ body {
     flex-direction: column;
     margin: 0px;
     overflow-x: hidden;
-    background-color: #ce4257;
+    /* background-color: #ce4257; */
+    background-color: #9a8c98;
 }
 
 .tab {
@@ -176,4 +177,126 @@ input[type="text"]::placeholder {
 #sch {
     position: relative;
     left: -3em;
+}
+
+#art {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 340px;
+    background-image: url(https://images.unsplash.com/photo-1594315817877-7451953e203d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTV8fHN0YXJyeSUyMHNreXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin-top: 5em;
+    position: relative;
+}
+
+.tonesf {
+    font-size: 2.3em;
+    font-weight: bold;
+
+    font-family: Helvetica, sans-serif;
+    color: #c9ada7;
+    position: absolute;
+    top: 1.5em;
+    left: 2.0em;
+
+
+}
+
+#tonesf {
+    color: #c9ada7;
+    text-decoration: none;
+}
+
+.foot1 {
+    color: #c9ada7;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    top: 6em;
+    left: 22em;
+    position: absolute;
+
+
+}
+
+.foot2 {
+    color: #c9ada7;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    top: 9em;
+    left: 22em;
+    position: absolute;
+
+}
+
+.foot3 {
+    color: #c9ada7;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    top: 12em;
+    left: 22em;
+    position: absolute;
+}
+
+.foot4 {
+    color: #c9ada7;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    top: 6em;
+    left: 36em;
+    position: absolute;
+}
+
+.foot5 {
+    color: #c9ada7;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    top: 9em;
+    left: 36em;
+    position: absolute;
+}
+
+.foot6 {
+    color: #c9ada7;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    top: 12em;
+    left: 36em;
+    position: absolute;
+}
+
+.icon1 {
+    color: #c9ada7;
+    font-size: 2.5em;
+    position: absolute;
+    top: 3.6em;
+    left: 25em;
+}
+
+.icon2 {
+    color: #c9ada7;
+    font-size: 2.5em;
+    position: absolute;
+    top: 3.6em;
+    left: 27em;
+}
+
+
+.icon3 {
+    color: #c9ada7;
+    font-size: 2.5em;
+    position: absolute;
+    top: 3.6em;
+    left: 29em;
 }
