@@ -25,7 +25,7 @@ body {
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
 
 }
 
@@ -140,6 +140,16 @@ body {
     top: 5px;
     font-family: Helvetica, sans-serif;
 
+}
+
+#tonesf {
+    color: #c9ada7;
+    text-decoration: none;
+}
+
+#tones {
+    text-decoration: none;
+    color: white;
 }
 
 .down {
@@ -484,10 +494,13 @@ body {
     top: 1em;
     left: 11em;
     color: #e63946;
+
 }
 
 .whate:hover {
     color: #60a9ff;
+    transition-duration: 1s;
+
 }
 
 #pick {
@@ -508,12 +521,15 @@ body {
 footer {
     width: 100%;
     height: 340px;
-    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-image: url(https://images.unsplash.com/photo-1594315817877-7451953e203d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTV8fHN0YXJyeSUyMHNreXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
     margin-top: 5em;
     position: relative;
+    top: 2em;
+
 }
 
 .tonesf {
@@ -615,4 +631,9 @@ footer {
     position: absolute;
     top: 3.6em;
     left: 29em;
+}
+
+.banner {
+    margin-top: 7em;
+    width: 100%;
 }
